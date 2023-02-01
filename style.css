@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    max-width: 1050px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #F3F3F3;
+    padding-bottom: 120px;
+}
+
+
+/*Шапка*/
+.block {
+    display: flex;
+    /*Размещаем элементы по разные стороны*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul{
+    /*Размещаем элементы списка в строку*/
+    display: flex;
+    list-style: none;
+}
+
+.header h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /*Расстояние между буквами*/
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 36px 0;
+}
+
+.header a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.header li {
+    margin-left: 21px;
+}
+
+
+/*Experts*/
+.header h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 120px 0 40px;
+}
+
+.header p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin:0;
+}
+
+.but {
+    display: flex;
+    /*Элементы выстраиваются в несколько строк*/
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.but .but1, .but .but2 {
+    box-sizing: border-box;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.but .but1 {
+    background-color: #FFA62B;
+    color: #FFFFFF;
+    padding: 10px 36px;
+    margin-right: 10px;
+}
+
+.but .but2 {
+    color: #00A0C1;
+    padding: 9px 35px;
+    border: 1px solid #00A0C1;
+}
+
+
+/*choose*/
+.choose {
+    padding: 145px 0 100px;
+}
+
+.choose h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.choose p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.choose_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choose_element {
+    flex-basis: 328px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+
+.choose_block h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-left: 15px;
+}
+
+.choose_block p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.choose_title {
+    display: flex;
+    align-items: center;
+}
+
+
+/*say*/
+.say {
+    padding: 80px 0;
+    background-color: #F3F3F3;
+}
+
+.say h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.say p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block4 {
+    flex-basis: 327px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 29px 34px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.block4 p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+    margin: 20px 23px 20px 0;
+}
+
+.block4 img {
+    margin-right: 1.83px;
+}
+
+.block5 {
+    display: flex;
+    align-items: center;
+}
+
+.block5 img {
+    margin: 0;
+}
+
+.block5 .h61 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+    margin: 0 0 0 15px;
+}
+
+.block5 .h62 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-left: 15px;
+    margin: 0 0 0 15px;
+}
+
+
+/*team*/
+.team {
+    padding: 80px 0;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.team p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+.team_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team_element {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 100%;
+}
+
+.team_element h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-align: center;
+    margin: 30px 0 5px;
+}
+
+.team_element h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.social {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social .marg {
+    margin: 0 15px;
+}
+
+
+/*contact*/
+.contact {
+    background: url(images/b_5_fon.jpg) no-repeat center;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.contact h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 0;
+}
+
+.contact h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0 0 40px;
+}
+
+form {
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form input, select {
+    flex-basis: 290px;
+    margin: 0 20px 20px 0;
+}
+
+form textarea {
+    flex-basis: 600px;
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    height: 140px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+form input { 
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgb(189, 189, 189);
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+form select {
+    background: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #BDBDBD;
+    padding: 12px 17px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #FFA62B;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 15px 40px;
+    box-sizing: border-box;
+}
+
+
+/*consulting*/
+.consulting {
+    padding: 40px 0;
+}
+
+.block2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text h3 {
+    margin: 0 0 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.text p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.block2 a {
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background-color: #FFA62B;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*Mark*/
+.mark {
+    padding: 40px 0;
+    background-color: #252B42;
+}
+
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block3 h3 {
+    margin: 13px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.icons a {
+    margin-left: 20px;
+}
+
+.icons .fac {
+    margin-left: 0;
+}
+
+
+
+
+
+
+/*Адаптация*/
+@media(max-width: 1140px) {
+
+    .header, .float2, .float1, .choose, .contact, .consulting, .mark, .team, .say {
+        padding-left: 43px;
+        padding-right: 43px;
+        box-sizing: border-box;
+    }
+
+    .choose_block, .team_block, .container {
+        justify-content: space-evenly;
+    }
+}
+
+
+@media(max-width: 800px) {
+
+    .choose_element, .team_element, .block4 {
+        flex-basis: 100%;
+    }
+
+    .say {
+        padding: 75px 43px 94px;
+    }
+
+    .choose {
+        padding: 75px 43px 103px;
+    }
+
+    .team {
+        padding: 75px 43px 124px;
+    }
+
+    .contact {
+        padding: 115px 43px 85px;
+    }
+}
+
+
+@media(max-width: 757px) {
+    
+    .block2 a {
+        flex-basis: 100%;
+        margin: 50px 0 0;
+    }
+}
+
+
+@media(max-width: 740px) {
+    
+    form input, select, textarea {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    button {
+        flex-basis: 100%;
+    }
+}
+
+
+@media(max-width: 680px) {
+
+    .header h1 {
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .but {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .but .but1 {
+        margin-right: 0;
+    }
+
+    .but .but2 {
+        margin: 10px 0 0;
+    }
+}
+
+
+@media(max-width: 520px) {
+
+    .header {
+        background-color: #FAFAFA;;
+    }
+
+    .header h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        margin: 80px 0 40px;
+    }
+
+    .but .but1 {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media(max-width: 440px) {
+    
+    .icons {
+        margin: 50px 30px 0 0;
+    }
+}
+
+
